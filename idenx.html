@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Convert Money</title>
+</head>
+
+<body>
+    <img id="logo-page" src="./assets/logofundo.gif" alt="Logo-trade-money">
+    <main>
+
+        <label>Convert <b>from:</b>
+            <select class="currency-select-from-convert">
+                <option value="Brasil">Real (BRL)</option>
+                <option value="Dolar">Dólar americano (US$)</option>
+                <option value="Euro">Euro (EUR)</option>
+                <option value="Iene">Iene japonês (JPY)</option>
+                <option value="Libra">Libra esterlina (GBP)</option>
+                <option value="Franco">Franco suíço (CHF)</option>
+                <option value="Yuan">Yuan (CNY) </option>
+                <option value="SOL">Solana (SOL)</option>
+                <option value="XRP">XRP (XRP)</option>
+                <option value="BTC">Bitcoin (BTC)</option>
+                <option value="ETH">Ethereum (ETH)</option>
+                <option value="BNB">BNB (BNB)</option>
+
+            </select>
+
+        </label>
+
+        <label> <b>To:</b>
+            <select class="currency-select-to-convert">
+                <option value="Dolar">Dólar americano (US$)</option>
+                <option value="Euro">Euro (EUR)</option>
+                <option value="Brasil">Real (BRL)</option>
+                <option value="Iene">Iene japonês (JPY)</option>
+                <option value="Libra">Libra esterlina (GBP)</option>
+                <option value="Franco">Franco suíço (CHF)</option>
+                <option value="Yuan">Yuan (CNY) </option>
+                <option value="SOL">Solana (SOL)</option>
+                <option value="XRP">XRP (XRP)</option>
+                <option value="BTC">Bitcoin (BTC)</option>
+                <option value="ETH">Ethereum (ETH)</option>
+                <option value="BNB">BNB (BNB)</option>
+
+            </select>
+
+        </label>
+
+        <label for=""> <b>Value:</b>
+            <input class="input-value" placeholder="R$ 10.000,00">
+        </label>
+
+        <button class="convert-button">Convert</button>
+
+        <section>
+            <div class="currency-box">
+                <img id="logo-coin-from" class="logo-coin" src="./assets/Logo_coin/Brasil.png"
+                    alt="Logo-moeda-convertFrom" />
+                <p id="currencynamefrom" class="currency">Real</p>
+                <p class="currency-value-to-convert">R$ 0,00</p>
+            </div>
+            <div>
+                <img class="arrow" src="./assets/ARROWRED.png" alt="arrow">
+                <img class="gif" src="./assets/logo_centro.gif" alt="gif_centro">
+                <img class="arrow" src="./assets/ARROWBLUE.png" alt="Arrow">
+            </div>
+            <div class="currency-box">
+
+                <img id="logo-coin-converted" class="logo-coin" src="./assets/Logo_coin/Dolar.png"
+                    alt="Logo-moeda-convertTo" />
+                <p id="currencyname" class="currency">Dolar</p>
+                <p class="currency-value">R$ 0,00</p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+<script src="./scripts.js"></script>
+
+</html>
