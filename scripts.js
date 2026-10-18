@@ -294,7 +294,7 @@ function eventConvertTo() {
     const wordConvertFrom = document.querySelector("#currencyname")
     const imgPaisToConvert = document.querySelector("#logo-coin-converted")
     wordConvertFrom.innerHTML = coinTo.value
-    imgPaisToConvert.src = `./assets/Logo_coin/${coinTo.value}.png`
+    imgPaisToConvert.src = `./assets/flags/${coinTo.value}.png`
 
     convertFromTo()
 }
@@ -304,7 +304,7 @@ function eventConvertFrom() {
     const wordConvertFrom = document.querySelector("#currencynamefrom")
     const imgPaisToConvert = document.querySelector("#logo-coin-from")
     wordConvertFrom.innerHTML = coinFrom.value
-    imgPaisToConvert.src = `./assets/Logo_coin/${coinFrom.value}.png`
+    imgPaisToConvert.src = `./assets/flags/${coinFrom.value}.png`
 
     convertFromTo()
 }
