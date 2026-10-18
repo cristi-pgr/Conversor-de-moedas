@@ -187,20 +187,20 @@ function convertFromTo() {
         currencyValueToConvert.innerHTML = new Intl.NumberFormat('pt-BR', {
             style: 'currency',
             currency: 'BRL'
-        }).format(converted)
+        }).format(inputValue)
     }
     if (coinFrom.value == "Dolar") {
         currencyValueToConvert.innerHTML = new Intl.NumberFormat('en-Us', {
             style: 'currency',
             currency: 'USD'
-        }).format(converted)
+        }).format(inputValue)
 
     }
     if (coinFrom.value == "Iene") {
         currencyValueToConvert.innerHTML = new Intl.NumberFormat('ja-JP', {
             style: 'currency',
             currency: 'JPY'
-        }).format(converted)
+        }).format(inputValue)
 
     }
 
@@ -208,20 +208,20 @@ function convertFromTo() {
         currencyValueToConvert.innerHTML = new Intl.NumberFormat('en-US', {
             style: 'currency',
             currency: 'GBP'
-        }).format(converted)
+        }).format(inputValue)
     }
     if (coinFrom.value == "Franco") {
         currencyValueToConvert.innerHTML = new Intl.NumberFormat('en-US', {
             style: 'currency',
             currency: 'CHF'
-        }).format(converted)
+        }).format(inputValue)
 
     }
     if (coinFrom.value == "Yuan") {
         currencyValueToConvert.innerHTML = new Intl.NumberFormat('en-US', {
             style: 'currency',
             currency: 'CNY'
-        }).format(converted)
+        }).format(inputValue)
 
     }
     else {
@@ -229,7 +229,7 @@ function convertFromTo() {
             style: 'currency',
             currency: 'USD',
             maximumFractionDigits: 8
-        }).format(converted)
+        }).format(inputValue)
 
     }
 
